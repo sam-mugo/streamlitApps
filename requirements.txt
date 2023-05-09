@@ -1,0 +1,6 @@
+yfinance
+streamlit==1.19.0
+pandas
+pdfkit
+plotly
+psutil
