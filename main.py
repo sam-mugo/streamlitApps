@@ -34,8 +34,8 @@ s = c1.text_input("Enter Stock Ticker", placeholder="Eg. AAPL")  # Ticker Input
 btn = c1.button("Enter")  # Submit button
 
 ## SETTING THE FILE PATH FOR PDF TEMPLATE
-env = Environment(loader=FileSystemLoader(".."), autoescape=select_autoescape())
-template = env.get_template("template.html")
+env = Environment(loader=FileSystemLoader("templates"), autoescape=select_autoescape())
+template = env.get_template("index.html")
 
 ## APP LOADING
 with st.spinner("Crunching the data..."):
