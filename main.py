@@ -7,7 +7,7 @@ from jinja2 import Environment, select_autoescape, FileSystemLoader
 
 ## Setting the page title and favicon
 st.set_page_config(
-    page_title="ticktick.boom",
+    page_title="yfinance.boom",
     page_icon="💣",
 )
 
